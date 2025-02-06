@@ -1688,3 +1688,38 @@ Empty Search,Pass,,2025-02-06 20:38:07
 Special Characters Search,Pass,,2025-02-06 20:38:17
 Filter by Category,Pass,,2025-02-06 20:38:20
 Filter by Rating,Pass,,2025-02-06 20:38:27
+Search Accuracy,Fail,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x00CA0A33+25139]
+	(No symbol) [0x00C31134]
+	(No symbol) [0x00B10523]
+	(No symbol) [0x00B58387]
+	(No symbol) [0x00B586DB]
+	(No symbol) [0x00BA0FC2]
+	(No symbol) [0x00B7CFB4]
+	(No symbol) [0x00B9E738]
+	(No symbol) [0x00B7CD66]
+	(No symbol) [0x00B4BD99]
+	(No symbol) [0x00B4D0D4]
+	GetHandleVerifier [0x00FA3A23+3183139]
+	GetHandleVerifier [0x00FBFE8A+3298954]
+	GetHandleVerifier [0x00FBA462+3275874]
+	GetHandleVerifier [0x00D37770+642928]
+	(No symbol) [0x00C3A01D]
+	(No symbol) [0x00C36E48]
+	(No symbol) [0x00C36FE7]
+	(No symbol) [0x00C29CE0]
+	BaseThreadInitThunk [0x7593FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x771382AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7713827E+238]
+",2025-02-06 21:49:51
+Search Accuracy,Pass,,2025-02-06 21:50:08
+Empty Search,Pass,,2025-02-06 21:50:14
+Special Characters Search,Pass,,2025-02-06 21:50:23
+Filter by Category,Pass,,2025-02-06 21:50:26
+Filter by Rating,Pass,,2025-02-06 21:50:32
+Search Accuracy,Pass,,2025-02-06 21:58:07
+Empty Search,Pass,,2025-02-06 21:58:21
+Special Characters Search,Pass,,2025-02-06 21:58:35
+Filter by Category,Pass,,2025-02-06 21:58:40
+Filter by Rating,Pass,,2025-02-06 21:58:51

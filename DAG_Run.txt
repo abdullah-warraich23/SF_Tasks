@@ -1,0 +1,20 @@
+1. Deploy the DAG
+
+    Save the script as automated_web_tests.py in the Airflow DAGs directory:
+        mv automated_web_tests.py ~/airflow/dags/
+
+2. Start Airflow Services
+    Initialize Airflow database:
+        airflow db init
+
+    Start scheduler:
+        airflow scheduler
+    
+    Start web server:
+        airflow webserver --port 8080
+
+3. Trigger the DAG Manually
+    airflow dags trigger automated_web_tests
+
+4. Monitor Logs
+    airflow tasks logs automated_web_tests run_web_crawler

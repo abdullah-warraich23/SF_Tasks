@@ -1,0 +1,10 @@
+apache-airflow==2.10.4
+beautifulsoup4==4.13.3
+playwright==1.49.1
+pytest==8.3.4
+Requests==2.32.3
+selenium==4.28.1
+urllib3==2.3.0
+webdriver_manager==4.0.2
+pandas==2.2.3
+numpy==2.2.2

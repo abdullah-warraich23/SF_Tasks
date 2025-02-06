@@ -313,6 +313,7 @@ def test_filter_by_rating(driver):
         # Save a "Fail" result along with the error message in the CSV.
         save_results("Filter by Rating", "Fail", str(e))
         raise
-    
+  
+
 if __name__ == "__main__":
     pytest.main(["-v", "-s", "--html=report.html", "--self-contained-html", "--reruns=2", "--reruns-delay=5"])
