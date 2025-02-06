@@ -21,7 +21,7 @@ def test_locust_load():
     #    locust_results_failures.csv
     #    locust_results_stats_history.csv
     command = (
-        "locust -f locust.py --headless -u 50 -r 5 --run-time 1m "
+        "locust -f locust.py --headless -u 120 -r 5 --run-time 1m "
         "--host=https://www.softwarefinder.com --csv=locust_results"
     )
     print("Running Locust command:", command)

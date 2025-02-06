@@ -85,10 +85,10 @@ class WebsiteCrawler:
                     res = self.session.head(link_url, timeout=5, allow_redirects=True)
                     status_code = res.status_code
                     if status_code >= 400:
-                        broken_link_entries.append( (link_url, status_code) )
+                        broken_link_entries.append( (status_code) )
                 except Exception as e:
                     error_msg = f"Connection Error: {str(e)[:30]}"
-                    broken_link_entries.append( (link_url, error_msg) )
+                    broken_link_entries.append( (error_msg) )
 
             # Check responsiveness and device type
             responsiveness_issues = self.check_responsiveness(soup)

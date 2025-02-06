@@ -124,14 +124,15 @@ load_test_task = PythonOperator(
 
 def update_csv():
     """
-    Updates CSV files with the latest test and load test results.
+    Updates CSV files with the latest crawl test and load test results.
     """
     update_repo()
     data_dir = os.path.join(LOCAL_REPO_PATH, "data")
     
     # Define paths to CSV files
+    crawl_results_path = os.path.join(data_dir, "crawl_results.csv")
     test_results_path = os.path.join(data_dir, "test_results.csv")
-    load_test_results_path = os.path.join(data_dir, "loadtest_stats.csv")
+    load_test_results_path = os.path.join(data_dir, "locust_results_stats.csv")
     
     # Check if new load test results exist
     if not os.path.isfile(load_test_results_path):
@@ -142,11 +143,17 @@ def update_csv():
         test_results = pd.read_csv(test_results_path)
     else:
         test_results = pd.DataFrame()
+
+    # Load existing test results (if any)
+    if os.path.isfile(crawl_results_path):
+        crawl_results = pd.read_csv(crawl_results_path)
+    else:
+        crawl_results = pd.DataFrame()
     
     # Load new load test results
     load_test_results = pd.read_csv(load_test_results_path)
     
-    # Merge or append results
+    # Merge or append results for tests and load test
     updated_results = pd.concat([test_results, load_test_results], ignore_index=True)
     updated_results.to_csv(test_results_path, index=False)
     print(f"Updated CSV file: {test_results_path}")
@@ -199,4 +206,4 @@ power_bi_refresh_task = PythonOperator(
 )
 '''
 # Define task dependencies
-web_crawler_task >> test_execution_task >> update_csv_task #>> power_bi_refresh_task
+web_crawler_task >> test_execution_task >> load_test_task >> update_csv_task #>> power_bi_refresh_task
