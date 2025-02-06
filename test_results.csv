@@ -1683,3 +1683,8 @@ Stacktrace:
 	RtlGetAppContainerNamedObjectPath [0x7713827E+238]
 ",2/6/2025 6:19
 Filter by Rating,Pass,,2/6/2025 6:23
+Search Accuracy,Pass,,2025-02-06 20:38:01
+Empty Search,Pass,,2025-02-06 20:38:07
+Special Characters Search,Pass,,2025-02-06 20:38:17
+Filter by Category,Pass,,2025-02-06 20:38:20
+Filter by Rating,Pass,,2025-02-06 20:38:27

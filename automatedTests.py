@@ -220,9 +220,7 @@ def test_empty_search(driver):
         safe_send_keys(search_box, " ",driver)
         
         # Wait for page stability
-        WebDriverWait(driver, 10).until(
-            lambda d: d.execute_script("return document.readyState") == "complete"
-        )
+        wait_for_page_load(driver)
         
         assert "search-result" not in driver.current_url, "Empty search redirected"
         save_results("Empty Search", "Pass")
@@ -255,7 +253,7 @@ def test_special_characters_search(driver):
         save_results("Special Characters Search", "Pass")
         
     except Exception as e:
-    save_results("Special Characters Search", "Fail", str(e))
+        save_results("Special Characters Search", "Fail", str(e))
         raise
 
 # Test Case 4: Filtering By Category
