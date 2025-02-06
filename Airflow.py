@@ -151,6 +151,12 @@ def update_csv():
     updated_results.to_csv(test_results_path, index=False)
     print(f"Updated CSV file: {test_results_path}")
 
+update_csv_task = PythonOperator(
+task_id='update_csv',
+python_callable=update_csv,
+dag=dag
+)
+
 def prepare_local_data():
     """Copy CSV/HTML files from Git repo to local data directory"""
     local_data_dir = "C:/PowerBI_Data/SoftwareFinder"
@@ -170,6 +176,8 @@ def prepare_local_data():
             )
     print(f"Copied files to {local_data_dir}")
 
+'''
+to be integrated
 def refresh_power_bi():
     """
     Triggers a Power BI dataset refresh using the Power BI REST API.
@@ -189,6 +197,6 @@ power_bi_refresh_task = PythonOperator(
     python_callable=refresh_power_bi,
     dag=dag
 )
-
+'''
 # Define task dependencies
-web_crawler_task >> test_execution_task >> csv_update_task >> power_bi_refresh_task
+web_crawler_task >> test_execution_task >> update_csv_task #>> power_bi_refresh_task
