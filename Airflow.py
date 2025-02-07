@@ -5,7 +5,7 @@ import shutil
 import pandas as pd
 import requests
 from airflow import DAG
-from airflow.operators.operators.python import PythonOperator
+from airflow.operators.python import PythonOperator
 
 # Configuration
 REPO_URL = "https://github.com/abdullah-warraich23/SF_Tasks.git"
