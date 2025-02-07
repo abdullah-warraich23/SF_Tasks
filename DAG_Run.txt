@@ -1,3 +1,13 @@
+TO INITIATE AIRFLOW:
+    - initialize by 'airflow db init'
+    - create user 'airflow users create --username admin --password admin --firstname User --lastname User --role Admin --email user@example.com'
+    - open two terminals side by side 
+        * first terminal: airflow webserver --port 8080
+        * second terminal: airflow scheduler
+    - Access Airflow UI at http://localhost:8080
+    - Login with admin/admin
+
+
 1. Deploy the DAG
 
     Save the script as automatedTests.py in the Airflow DAGs directory:

@@ -5,11 +5,11 @@ import shutil
 import pandas as pd
 import requests
 from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.operators.python import PythonOperator
 
 # Configuration
 REPO_URL = "https://github.com/abdullah-warraich23/SF_Tasks.git"
-LOCAL_REPO_PATH = "C:/Users/userOneDrive/Desktop/SoftwareFinder_Tasks"
+LOCAL_REPO_PATH = "C:/Users/user/OneDrive/Desktop/SoftwareFinder_Tasks"
 
 default_args = {
     'owner': 'automation_team',
