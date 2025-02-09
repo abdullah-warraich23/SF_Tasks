@@ -1,3 +1,4 @@
+Test Case,Status (Pass/Fail),Error Message,Timestamp
 Search Accuracy,Fail,'function' object has no attribute 'get',2/5/2025 23:50
 Empty Search,Fail,'function' object has no attribute 'get',2/5/2025 23:50
 Special Characters Search,Fail,'function' object has no attribute 'get',2/5/2025 23:50
@@ -1683,11 +1684,11 @@ Stacktrace:
 	RtlGetAppContainerNamedObjectPath [0x7713827E+238]
 ",2/6/2025 6:19
 Filter by Rating,Pass,,2/6/2025 6:23
-Search Accuracy,Pass,,2025-02-06 20:38:01
-Empty Search,Pass,,2025-02-06 20:38:07
-Special Characters Search,Pass,,2025-02-06 20:38:17
-Filter by Category,Pass,,2025-02-06 20:38:20
-Filter by Rating,Pass,,2025-02-06 20:38:27
+Search Accuracy,Pass,,2/6/2025 20:38
+Empty Search,Pass,,2/6/2025 20:38
+Special Characters Search,Pass,,2/6/2025 20:38
+Filter by Category,Pass,,2/6/2025 20:38
+Filter by Rating,Pass,,2/6/2025 20:38
 Search Accuracy,Fail,"Message: 
 Stacktrace:
 	GetHandleVerifier [0x00CA0A33+25139]
@@ -1712,19 +1713,70 @@ Stacktrace:
 	BaseThreadInitThunk [0x7593FCC9+25]
 	RtlGetAppContainerNamedObjectPath [0x771382AE+286]
 	RtlGetAppContainerNamedObjectPath [0x7713827E+238]
-",2025-02-06 21:49:51
-Search Accuracy,Pass,,2025-02-06 21:50:08
-Empty Search,Pass,,2025-02-06 21:50:14
-Special Characters Search,Pass,,2025-02-06 21:50:23
-Filter by Category,Pass,,2025-02-06 21:50:26
-Filter by Rating,Pass,,2025-02-06 21:50:32
-Search Accuracy,Pass,,2025-02-06 21:58:07
-Empty Search,Pass,,2025-02-06 21:58:21
-Special Characters Search,Pass,,2025-02-06 21:58:35
-Filter by Category,Pass,,2025-02-06 21:58:40
-Filter by Rating,Pass,,2025-02-06 21:58:51
-Search Accuracy,Pass,,2025-02-07 01:02:48
-Empty Search,Pass,,2025-02-07 01:02:55
-Special Characters Search,Pass,,2025-02-07 01:03:10
-Filter by Category,Pass,,2025-02-07 01:03:14
-Filter by Rating,Pass,,2025-02-07 01:03:21
+",2/6/2025 21:49
+Search Accuracy,Pass,,2/6/2025 21:50
+Empty Search,Pass,,2/6/2025 21:50
+Special Characters Search,Pass,,2/6/2025 21:50
+Filter by Category,Pass,,2/6/2025 21:50
+Filter by Rating,Pass,,2/6/2025 21:50
+Search Accuracy,Pass,,2/6/2025 21:58
+Empty Search,Pass,,2/6/2025 21:58
+Special Characters Search,Pass,,2/6/2025 21:58
+Filter by Category,Pass,,2/6/2025 21:58
+Filter by Rating,Pass,,2/6/2025 21:58
+Search Accuracy,Pass,,2/7/2025 1:02
+Empty Search,Pass,,2/7/2025 1:02
+Special Characters Search,Pass,,2/7/2025 1:03
+Filter by Category,Pass,,2/7/2025 1:03
+Filter by Rating,Pass,,2/7/2025 1:03
+Search Accuracy,Pass,,2/10/2025 2:05
+Empty Search,Pass,,2/10/2025 2:05
+Special Characters Search,Pass,,2/10/2025 2:05
+Filter by Category,Pass,,2/10/2025 2:05
+Filter by Rating,Fail,"Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00F90A33+25139]
+	(No symbol) [0x00F21134]
+	(No symbol) [0x00E00523]
+	(No symbol) [0x00E06F41]
+	(No symbol) [0x00E0904A]
+	(No symbol) [0x00E090C7]
+	(No symbol) [0x00E4C194]
+	(No symbol) [0x00E4A557]
+	(No symbol) [0x00E4981D]
+	(No symbol) [0x00E3E1C6]
+	(No symbol) [0x00E6CF6C]
+	(No symbol) [0x00E3D954]
+	(No symbol) [0x00E6D1E4]
+	(No symbol) [0x00E8E738]
+	(No symbol) [0x00E6CD66]
+	(No symbol) [0x00E3BD99]
+	(No symbol) [0x00E3D0D4]
+	GetHandleVerifier [0x01293A23+3183139]
+	GetHandleVerifier [0x012AFE8A+3298954]
+	GetHandleVerifier [0x012AA462+3275874]
+	GetHandleVerifier [0x01027770+642928]
+	(No symbol) [0x00F2A01D]
+	(No symbol) [0x00F26E48]
+	(No symbol) [0x00F26FE7]
+	(No symbol) [0x00F19CE0]
+	BaseThreadInitThunk [0x777BFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DA82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77DA827E+238]
+",2/10/2025 2:05
+Search Accuracy,Pass,,2/10/2025 2:10
+Empty Search,Pass,,2/10/2025 2:10
+Special Characters Search,Pass,,2/10/2025 2:10
+Filter by Category,Pass,,2/10/2025 2:10
+Filter by Rating,Pass,,2/10/2025 2:10
+Search Accuracy,Pass,,2/10/2025 2:32
+Empty Search,Pass,,2/10/2025 2:32
+Special Characters Search,Pass,,2/10/2025 2:32
+Filter by Category,Pass,,2/10/2025 2:32
+Filter by Rating,Pass,,2/10/2025 2:32
+Search Accuracy,Pass,,2/10/2025 2:42
+Empty Search,Pass,,2/10/2025 2:42
+Special Characters Search,Pass,,2/10/2025 2:42
+Filter by Category,Pass,,2/10/2025 2:42
+Filter by Rating,Pass,,2/10/2025 2:42

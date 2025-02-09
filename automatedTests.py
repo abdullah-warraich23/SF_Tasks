@@ -62,9 +62,14 @@ def driver():
 
 def save_results(test_case, status, error_message=""):
     file_path = os.path.abspath("test_results.csv")
+
+        # Write header only if file doesn't exist or is empty.
+    write_header = not os.path.exists(file_path) or os.path.getsize(file_path) == 0
     try:
         with open(file_path, "a", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
+            if write_header:
+                writer.writerow(["Test Case", "Status (Pass/Fail)", "Error Message", "Timestamp"])
             writer.writerow([test_case, status, error_message, datetime.now().strftime("%Y-%m-%d %H:%M:%S")])
     except PermissionError:
         print(f"Permission denied for file: {file_path}")
