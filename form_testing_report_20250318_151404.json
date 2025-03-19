@@ -1,0 +1,78 @@
+{
+  "summary": {
+    "total_forms": 3,
+    "passed_forms": 2,
+    "failed_forms": 1,
+    "success_rate": "66.7%"
+  },
+  "details": [
+    {
+      "form_type": "Get Recommendation CTA Form",
+      "timestamp": "2025-03-18T15:11:38.564223",
+      "tests": [
+        {
+          "id": "SF-26",
+          "description": "Button visibility",
+          "status": "Passed"
+        },
+        {
+          "id": "SF-27",
+          "description": "Form opens",
+          "status": "Passed"
+        },
+        {
+          "id": "SF-28-31",
+          "description": "Field verification",
+          "status": "Passed"
+        },
+        {
+          "id": "SF-34",
+          "description": "Form submission",
+          "status": "Passed"
+        }
+      ],
+      "status": "Passed"
+    },
+    {
+      "form_type": "Get Pricing CTA Form",
+      "timestamp": "2025-03-18T15:12:30.152864",
+      "tests": [
+        {
+          "id": "SF-26",
+          "description": "Button visibility",
+          "status": "Passed"
+        },
+        {
+          "id": "SF-27",
+          "description": "Form opens",
+          "status": "Passed"
+        },
+        {
+          "id": "SF-28-31",
+          "description": "Field verification",
+          "status": "Passed"
+        },
+        {
+          "id": "SF-34",
+          "description": "Form submission",
+          "status": "Passed"
+        }
+      ],
+      "status": "Passed"
+    },
+    {
+      "form_type": "Write a Review Form",
+      "timestamp": "2025-03-18T15:12:45.707559",
+      "tests": [
+        {
+          "id": "SF-26",
+          "description": "Button visibility",
+          "status": "Passed"
+        }
+      ],
+      "status": "Failed",
+      "error": "Could not find form for Write a Review Form"
+    }
+  ],
+  "timestamp": "2025-03-18T15:14:04.046841"
+}

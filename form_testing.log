@@ -1,0 +1,230 @@
+2025-03-18 13:12:35,624 - INFO - ====== WebDriver manager ======
+2025-03-18 13:12:35,739 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-18 13:12:35,900 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-18 13:12:36,013 - INFO - There is no [mac64] chromedriver "134.0.6998.88" for browser google-chrome "134.0.6998" in cache
+2025-03-18 13:12:36,025 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-18 13:12:36,544 - INFO - WebDriver version 134.0.6998.88 selected
+2025-03-18 13:12:36,546 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/mac-arm64/chromedriver-mac-arm64.zip
+2025-03-18 13:12:36,546 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/mac-arm64/chromedriver-mac-arm64.zip
+2025-03-18 13:12:36,962 - INFO - Driver downloading response is 200
+2025-03-18 13:12:43,508 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-18 13:12:43,706 - INFO - Driver has been saved in cache [/Users/abdullahwarraich/.wdm/drivers/chromedriver/mac64/134.0.6998.88]
+2025-03-18 13:12:44,624 - INFO - Initialized chrome WebDriver in headless mode
+2025-03-18 13:13:02,344 - INFO - Current URL: https://softwarefinder.com/
+2025-03-18 13:13:02,359 - INFO - Found button with configured locator
+2025-03-18 13:13:02,489 - INFO - Found element using selector: [name='name']
+2025-03-18 13:13:02,588 - INFO - Found element using selector: [name='phone']
+2025-03-18 13:13:02,630 - INFO - Found element using selector: [name='email']
+2025-03-18 13:13:02,674 - INFO - Found element using selector: [name='company']
+2025-03-18 13:13:02,786 - ERROR - Get Recommendation CTA Form failed: FormTester.check_success() missing 1 required positional argument: 'config'
+2025-03-18 13:13:08,500 - INFO - Current URL: https://softwarefinder.com/accounting-software/quickbooks
+2025-03-18 13:13:08,514 - INFO - Found button with configured locator
+2025-03-18 13:13:08,630 - INFO - Found element using selector: [name='name']
+2025-03-18 13:13:08,663 - INFO - Found element using selector: [name='phone']
+2025-03-18 13:13:08,713 - INFO - Found element using selector: [name='email']
+2025-03-18 13:13:08,769 - INFO - Found element using selector: [name='company']
+2025-03-18 13:13:09,895 - ERROR - Get Pricing CTA Form failed: Message: element click intercepted: Element <button class="w-full text-center justify-center md:justify-start md:w-auto font-medium rounded-full flex items-center gap-3 transition-effect text-white bg-black hover:bg-dark-blue text-sm py-2 px-2 md:px-7">...</button> is not clickable at point (1517, 196). Other element would receive the click: <div data-state="open" class="fixed inset-0 bg-black bg-opacity-60 z-[999]" data-aria-hidden="true" aria-hidden="true" style="pointer-events: auto;"></div>
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+0   chromedriver                        0x00000001050d9804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001050d1ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104c25ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000104c72c6c cxxbridge1$string$len + 407748
+4   chromedriver                        0x0000000104c711d8 cxxbridge1$string$len + 400944
+5   chromedriver                        0x0000000104c6efec cxxbridge1$string$len + 392260
+6   chromedriver                        0x0000000104c6e3e8 cxxbridge1$string$len + 389184
+7   chromedriver                        0x0000000104c62dec cxxbridge1$string$len + 342596
+8   chromedriver                        0x0000000104c62878 cxxbridge1$string$len + 341200
+9   chromedriver                        0x0000000104cae678 cxxbridge1$string$len + 651984
+10  chromedriver                        0x0000000104c6135c cxxbridge1$string$len + 335796
+11  chromedriver                        0x000000010509ecd4 cxxbridge1$str$ptr + 2545532
+12  chromedriver                        0x00000001050a1fa0 cxxbridge1$str$ptr + 2558536
+13  chromedriver                        0x000000010507ed04 cxxbridge1$str$ptr + 2414508
+14  chromedriver                        0x00000001050a2800 cxxbridge1$str$ptr + 2560680
+15  chromedriver                        0x000000010506fba0 cxxbridge1$str$ptr + 2352712
+16  chromedriver                        0x00000001050c245c cxxbridge1$str$ptr + 2690820
+17  chromedriver                        0x00000001050c25e4 cxxbridge1$str$ptr + 2691212
+18  chromedriver                        0x00000001050d1a50 cxxbridge1$str$ptr + 2753784
+19  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-18 13:13:12,457 - INFO - Current URL: https://softwarefinder.com/accounting-software/quickbooks
+2025-03-18 13:13:42,842 - INFO - Found button using fallback selector: ('xpath', '//button')
+2025-03-18 13:13:43,079 - INFO - Found element using selector: [name='name']
+2025-03-18 13:13:43,121 - INFO - Found element using selector: [name='phone']
+2025-03-18 13:13:43,162 - INFO - Found element using selector: [name='email']
+2025-03-18 13:13:43,199 - INFO - Found element using selector: [name='company']
+2025-03-18 13:13:43,234 - ERROR - Watch Demo CTA Form failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#Watch\ Demo\ CTA\ Form > div > button"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001050d9804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001050d1ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104c25ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000104c6d1d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000104c62878 cxxbridge1$string$len + 341200
+5   chromedriver                        0x0000000104cae678 cxxbridge1$string$len + 651984
+6   chromedriver                        0x0000000104c6135c cxxbridge1$string$len + 335796
+7   chromedriver                        0x000000010509ecd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x00000001050a1fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x000000010507ed04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x00000001050a2800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x000000010506fba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x00000001050c245c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001050c25e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001050d1a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-18 13:13:47,446 - INFO - Current URL: https://softwarefinder.com/software-development/rolustech
+2025-03-18 13:13:47,459 - INFO - Found button with configured locator
+2025-03-18 13:13:47,505 - INFO - Found element using selector: [name='name']
+2025-03-18 13:13:47,540 - INFO - Found element using selector: [name='phone']
+2025-03-18 13:13:47,578 - INFO - Found element using selector: [name='email']
+2025-03-18 13:13:47,622 - ERROR - Get Quote CTA Form failed: Field not found: ["[name='Message']", '#Message']
+2025-03-18 13:13:50,567 - INFO - Current URL: https://softwarefinder.com/software-development/rolustech
+2025-03-18 13:13:50,579 - INFO - Found button with configured locator
+2025-03-18 13:14:21,089 - ERROR - Download Portfolio CTA Form failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050d9804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001050d1ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104c25ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000104c6d1d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000104cae678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x0000000104c6135c cxxbridge1$string$len + 335796
+6   chromedriver                        0x000000010509ecd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x00000001050a1fa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x000000010507ed04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x00000001050a2800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x000000010506fba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x00000001050c245c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x00000001050c25e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x00000001050d1a50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-18 13:14:22,421 - ERROR - Not Sure If Vendor Is the Right Fit? failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:14:24,929 - INFO - Current URL: https://softwarefinder.com/software-development/techlogix
+2025-03-18 13:14:55,148 - INFO - Found button using fallback selector: ('xpath', '//button')
+2025-03-18 13:15:25,686 - ERROR - Write a Review Form failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050d9804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001050d1ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104c25ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000104c6d1d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000104cae678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x0000000104c6135c cxxbridge1$string$len + 335796
+6   chromedriver                        0x000000010509ecd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x00000001050a1fa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x000000010507ed04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x00000001050a2800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x000000010506fba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x00000001050c245c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x00000001050c25e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x00000001050d1a50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-18 13:15:27,740 - ERROR - Get Started Form failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:15:32,427 - INFO - Current URL: https://softwarefinder.com/construction/ai-construction-software
+2025-03-18 13:15:32,444 - INFO - Found button with configured locator
+2025-03-18 13:16:02,495 - ERROR - Price Guide Sub-category failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050d9804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001050d1ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104c25ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000104c6d1d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000104cae678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x0000000104c6135c cxxbridge1$string$len + 335796
+6   chromedriver                        0x000000010509ecd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x00000001050a1fa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x000000010507ed04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x00000001050a2800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x000000010506fba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x00000001050c245c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x00000001050c25e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x00000001050d1a50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-18 13:16:05,808 - INFO - Current URL: https://softwarefinder.com/construction/ai-construction-software
+2025-03-18 13:16:05,820 - INFO - Found button with configured locator
+2025-03-18 13:16:36,254 - ERROR - Product List Sub-category failed: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001050d9804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001050d1ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104c25ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000104c6d1d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000104cae678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x0000000104c6135c cxxbridge1$string$len + 335796
+6   chromedriver                        0x000000010509ecd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x00000001050a1fa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x000000010507ed04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x00000001050a2800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x000000010506fba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x00000001050c245c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x00000001050c25e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x00000001050d1a50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-18 13:16:38,911 - ERROR - Side by Side Comparison failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:16:41,424 - ERROR - Download Whitepaper failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:16:45,497 - ERROR - Webinar on Demand Registration failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:16:47,173 - ERROR - Webinar on Demand Watch failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:16:49,617 - ERROR - Feeling Overwhelmed By Options Listed failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:16:54,358 - ERROR - Not Sure if Right Fit failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:16:57,472 - ERROR - Need Help Finding failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:17:03,926 - ERROR - Need Help Deciding? failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:17:05,212 - ERROR - Looking for Software? failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 13:17:07,265 - ERROR - Message Us failed: cannot access local variable 'form' where it is not associated with a value
+2025-03-18 15:11:38,563 - INFO - Chrome WebDriver initialized successfully
+2025-03-18 15:11:44,863 - INFO - Current URL: https://softwarefinder.com/
+2025-03-18 15:11:44,934 - INFO - Found 64 buttons on page
+2025-03-18 15:11:44,961 - INFO - Found button with text: get free recommendation
+2025-03-18 15:11:44,961 - INFO - SF-26: PASSED ✅
+2025-03-18 15:11:47,107 - INFO - Found form with ID: Get Recommendation CTA Form
+2025-03-18 15:11:47,107 - INFO - SF-27: PASSED ✅
+2025-03-18 15:11:47,122 - INFO - Found element using selector: [name='name']
+2025-03-18 15:11:47,126 - INFO - Verified field: name
+2025-03-18 15:11:47,136 - INFO - Found element using selector: [name='phone']
+2025-03-18 15:11:47,139 - INFO - Verified field: phone
+2025-03-18 15:11:47,148 - INFO - Found element using selector: [name='email']
+2025-03-18 15:11:47,151 - INFO - Verified field: email
+2025-03-18 15:11:47,161 - INFO - Found element using selector: [name='company']
+2025-03-18 15:11:47,164 - INFO - Verified field: organization
+2025-03-18 15:11:47,164 - INFO - SF-28-31: PASSED ✅
+2025-03-18 15:11:47,263 - INFO - Filled name with Test User
+2025-03-18 15:11:47,320 - INFO - Filled phone with +1-234-567-8900
+2025-03-18 15:11:47,358 - INFO - Filled email with test@example.com
+2025-03-18 15:11:47,395 - INFO - Filled organization with Test Org
+2025-03-18 15:12:25,133 - INFO - Clicked submit button
+2025-03-18 15:12:25,134 - INFO - Checking submission status (attempt 1/3)
+2025-03-18 15:12:30,152 - INFO - Success: Form element is stale (removed from DOM)
+2025-03-18 15:12:30,152 - INFO - SF-34: PASSED ✅
+2025-03-18 15:12:36,648 - INFO - Current URL: https://softwarefinder.com/accounting-software/quickbooks
+2025-03-18 15:12:36,670 - INFO - Found button with configured locator
+2025-03-18 15:12:36,670 - INFO - SF-26: PASSED ✅
+2025-03-18 15:12:38,772 - INFO - Found form with ID: Get Pricing CTA Form
+2025-03-18 15:12:38,773 - INFO - SF-27: PASSED ✅
+2025-03-18 15:12:38,788 - INFO - Found element using selector: [name='name']
+2025-03-18 15:12:38,792 - INFO - Verified field: name
+2025-03-18 15:12:38,803 - INFO - Found element using selector: [name='phone']
+2025-03-18 15:12:38,806 - INFO - Verified field: phone
+2025-03-18 15:12:38,816 - INFO - Found element using selector: [name='email']
+2025-03-18 15:12:38,819 - INFO - Verified field: email
+2025-03-18 15:12:38,828 - INFO - Found element using selector: [name='company']
+2025-03-18 15:12:38,830 - INFO - Verified field: organization
+2025-03-18 15:12:38,830 - INFO - SF-28-31: PASSED ✅
+2025-03-18 15:12:38,863 - INFO - Filled name with Test User
+2025-03-18 15:12:38,920 - INFO - Filled phone with +1-234-567-8900
+2025-03-18 15:12:38,957 - INFO - Filled email with test@example.com
+2025-03-18 15:12:38,991 - INFO - Filled organization with Test Org
+2025-03-18 15:12:40,692 - INFO - Clicked submit button
+2025-03-18 15:12:40,692 - INFO - Checking submission status (attempt 1/3)
+2025-03-18 15:12:45,707 - INFO - Success: Form element is stale (removed from DOM)
+2025-03-18 15:12:45,707 - INFO - SF-34: PASSED ✅
+2025-03-18 15:13:00,828 - INFO - Current URL: https://softwarefinder.com/software-development/techlogix
+2025-03-18 15:13:31,269 - INFO - Found 18 buttons on page
+2025-03-18 15:13:31,397 - INFO - Found button with text: get free advice
+2025-03-18 15:13:31,397 - INFO - SF-26: PASSED ✅
+2025-03-18 15:14:03,907 - ERROR - Error testing Write a Review Form: Could not find form for Write a Review Form

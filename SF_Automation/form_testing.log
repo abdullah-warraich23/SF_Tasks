@@ -1,0 +1,410 @@
+2025-03-17 11:51:41,418 - INFO - Chrome WebDriver initialized successfully
+2025-03-17 11:52:28,435 - ERROR - Error testing form Get Recommendation CTA Form: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+6   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:52:34,405 - INFO - Current URL: https://softwarefinder.com/accounting-software/quickbooks
+2025-03-17 11:52:34,432 - INFO - Found button with configured locator
+2025-03-17 11:52:35,578 - INFO - Found element using selector: [name='name']
+2025-03-17 11:52:35,693 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:52:35,758 - INFO - Found element using selector: [name='email']
+2025-03-17 11:52:35,804 - INFO - Found element using selector: [name='company']
+2025-03-17 11:53:07,969 - ERROR - Error testing form Get Pricing CTA Form: Message: 
+
+2025-03-17 11:53:13,902 - INFO - Current URL: https://softwarefinder.com/accounting-software/quickbooks
+2025-03-17 11:53:44,207 - ERROR - Error testing form Watch Demo CTA Form: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e53cd0 cxxbridge1$string$len + 117032
+4   chromedriver                        0x0000000100e55d74 cxxbridge1$string$len + 125388
+5   chromedriver                        0x0000000100e55e1c cxxbridge1$string$len + 125556
+6   chromedriver                        0x0000000100e94d9c cxxbridge1$string$len + 383476
+7   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+8   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+9   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+10  chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+11  chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+12  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+13  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+14  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+15  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+16  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+17  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:53:51,263 - INFO - Current URL: https://softwarefinder.com/software-development/rolustech
+2025-03-17 11:54:21,550 - ERROR - Error testing form Get Quote CTA Form: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e53cd0 cxxbridge1$string$len + 117032
+4   chromedriver                        0x0000000100e55d74 cxxbridge1$string$len + 125388
+5   chromedriver                        0x0000000100e55e1c cxxbridge1$string$len + 125556
+6   chromedriver                        0x0000000100e94d9c cxxbridge1$string$len + 383476
+7   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+8   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+9   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+10  chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+11  chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+12  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+13  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+14  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+15  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+16  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+17  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:54:27,728 - INFO - Current URL: https://softwarefinder.com/software-development/rolustech
+2025-03-17 11:54:27,746 - INFO - Found button with configured locator
+2025-03-17 11:54:28,847 - INFO - Found element using selector: [name='name']
+2025-03-17 11:54:28,900 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:54:28,963 - INFO - Found element using selector: [name='email']
+2025-03-17 11:54:29,029 - INFO - Found element using selector: [name='company']
+2025-03-17 11:55:00,563 - ERROR - Error testing form Download Portfolio CTA Form: Message: 
+
+2025-03-17 11:55:03,509 - INFO - Found element using selector: [name='name']
+2025-03-17 11:55:03,553 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:55:03,616 - INFO - Found element using selector: [name='email']
+2025-03-17 11:55:03,662 - INFO - Found element using selector: [name='company']
+2025-03-17 11:55:03,702 - ERROR - Error testing form Not Sure If Vendor Is the Right Fit?: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100e8a878 cxxbridge1$string$len + 341200
+5   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+6   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+7   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:55:09,852 - INFO - Current URL: https://softwarefinder.com/software-development/techlogix
+2025-03-17 11:55:39,918 - ERROR - Error testing form Write a Review Form: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e53cd0 cxxbridge1$string$len + 117032
+4   chromedriver                        0x0000000100e55d74 cxxbridge1$string$len + 125388
+5   chromedriver                        0x0000000100e55e1c cxxbridge1$string$len + 125556
+6   chromedriver                        0x0000000100e94d9c cxxbridge1$string$len + 383476
+7   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+8   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+9   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+10  chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+11  chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+12  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+13  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+14  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+15  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+16  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+17  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:55:44,110 - ERROR - Error testing form Get Started Form: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e53cd0 cxxbridge1$string$len + 117032
+4   chromedriver                        0x0000000100e55d74 cxxbridge1$string$len + 125388
+5   chromedriver                        0x0000000100e55e1c cxxbridge1$string$len + 125556
+6   chromedriver                        0x0000000100e94d9c cxxbridge1$string$len + 383476
+7   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+8   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+9   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+10  chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+11  chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+12  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+13  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+14  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+15  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+16  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+17  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:55:52,943 - INFO - Current URL: https://softwarefinder.com/construction/ai-construction-software
+2025-03-17 11:55:52,968 - INFO - Found button with configured locator
+2025-03-17 11:55:54,048 - INFO - Found element using selector: [name='name']
+2025-03-17 11:55:54,086 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:55:54,154 - INFO - Found element using selector: [name='email']
+2025-03-17 11:55:54,199 - INFO - Found element using selector: [name='company']
+2025-03-17 11:56:25,957 - ERROR - Error testing form Price Guide Sub-category: Message: 
+
+2025-03-17 11:56:32,672 - INFO - Current URL: https://softwarefinder.com/construction/ai-construction-software
+2025-03-17 11:57:03,169 - ERROR - Error testing form Product List Sub-category: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e53cd0 cxxbridge1$string$len + 117032
+4   chromedriver                        0x0000000100e55d74 cxxbridge1$string$len + 125388
+5   chromedriver                        0x0000000100e55e1c cxxbridge1$string$len + 125556
+6   chromedriver                        0x0000000100e94d9c cxxbridge1$string$len + 383476
+7   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+8   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+9   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+10  chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+11  chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+12  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+13  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+14  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+15  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+16  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+17  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:57:06,668 - ERROR - Error testing form Side by Side Comparison: Field not found: ["[name='name']", '#name']
+2025-03-17 11:57:09,613 - INFO - Found element using selector: [name='name']
+2025-03-17 11:57:09,675 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:57:09,744 - INFO - Found element using selector: [name='email']
+2025-03-17 11:57:09,791 - INFO - Found element using selector: [name='company']
+2025-03-17 11:57:09,831 - ERROR - Error testing form Download Whitepaper: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100e8a878 cxxbridge1$string$len + 341200
+5   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+6   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+7   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:57:15,652 - INFO - Found element using selector: [name='name']
+2025-03-17 11:57:15,702 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:57:15,764 - INFO - Found element using selector: [name='email']
+2025-03-17 11:57:15,809 - INFO - Found element using selector: [name='company']
+2025-03-17 11:57:15,847 - ERROR - Error testing form Webinar on Demand Registration: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100e8a878 cxxbridge1$string$len + 341200
+5   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+6   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+7   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:57:18,975 - INFO - Found element using selector: [name='name']
+2025-03-17 11:57:19,028 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:57:19,089 - INFO - Found element using selector: [name='email']
+2025-03-17 11:57:19,132 - INFO - Found element using selector: [name='company']
+2025-03-17 11:57:19,170 - ERROR - Error testing form Webinar on Demand Watch: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100e8a878 cxxbridge1$string$len + 341200
+5   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+6   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+7   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:57:24,559 - INFO - Found element using selector: [name='name']
+2025-03-17 11:57:24,611 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:57:24,675 - INFO - Found element using selector: [name='email']
+2025-03-17 11:57:24,721 - INFO - Found element using selector: [name='company']
+2025-03-17 11:57:24,759 - ERROR - Error testing form Feeling Overwhelmed By Options Listed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100e8a878 cxxbridge1$string$len + 341200
+5   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+6   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+7   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:57:31,273 - INFO - Found element using selector: [name='name']
+2025-03-17 11:57:31,325 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:57:31,388 - INFO - Found element using selector: [name='email']
+2025-03-17 11:57:31,433 - INFO - Found element using selector: [name='company']
+2025-03-17 11:57:31,473 - ERROR - Error testing form Not Sure if Right Fit: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100e8a878 cxxbridge1$string$len + 341200
+5   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+6   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+7   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:57:37,844 - INFO - Found element using selector: [name='name']
+2025-03-17 11:57:37,905 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:57:37,969 - INFO - Found element using selector: [name='email']
+2025-03-17 11:57:38,013 - INFO - Found element using selector: [name='company']
+2025-03-17 11:57:38,052 - ERROR - Error testing form Need Help Finding: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100e8a878 cxxbridge1$string$len + 341200
+5   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+6   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+7   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:57:45,346 - INFO - Found element using selector: [name='name']
+2025-03-17 11:57:45,397 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:57:45,467 - INFO - Found element using selector: [name='email']
+2025-03-17 11:57:45,848 - INFO - Found element using selector: [name='company']
+2025-03-17 11:57:45,889 - ERROR - Error testing form Need Help Deciding?: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100e8a878 cxxbridge1$string$len + 341200
+5   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+6   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+7   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:58:22,395 - ERROR - Error testing form Looking for Software?: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+5   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+6   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+7   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+8   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+9   chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+10  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+11  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+12  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+13  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+14  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:58:25,967 - INFO - Found element using selector: [name='name']
+2025-03-17 11:58:26,017 - INFO - Found element using selector: [name='phone']
+2025-03-17 11:58:26,082 - INFO - Found element using selector: [name='email']
+2025-03-17 11:58:26,127 - INFO - Found element using selector: [name='company']
+2025-03-17 11:58:26,171 - INFO - Found element using selector: [name='message']
+2025-03-17 11:58:26,208 - ERROR - Error testing form Message Us: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='submit']"}
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000101301804 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x00000001012f9ddc cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100e4dea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100e951d0 cxxbridge1$string$len + 384552
+4   chromedriver                        0x0000000100e8a878 cxxbridge1$string$len + 341200
+5   chromedriver                        0x0000000100ed6678 cxxbridge1$string$len + 651984
+6   chromedriver                        0x0000000100e8935c cxxbridge1$string$len + 335796
+7   chromedriver                        0x00000001012c6cd4 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x00000001012c9fa0 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x00000001012a6d04 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x00000001012ca800 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000101297ba0 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x00000001012ea45c cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x00000001012ea5e4 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x00000001012f9a50 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000196d3c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000196d370fc thread_start + 8
+
+2025-03-17 11:58:26,211 - INFO - All tests completed
